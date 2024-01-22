@@ -1,0 +1,17 @@
+.projectsPage{
+    background-color: white;
+    min-height: 1200px;
+    font-family: 'Titillium Web', sans-serif;
+    display: flex;
+    flex-direction: column;
+
+    h1{
+        align-self: center;
+        padding-bottom: 20px;
+    }
+
+    img{
+        width: 500px;
+        align-self: center;
+    }
+}

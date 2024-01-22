@@ -1,0 +1,111 @@
+.productsPage{
+    background-color: white;
+    min-height: 1200px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.productsSectionWrapper{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    flex-grow: 0;
+    width: max(85vw, 1000px);
+
+    @media screen and (max-width: 60em){
+        width: auto;
+    }
+}
+
+.productsCardContainer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+    @media screen and (max-width: 50em){
+        flex-direction: column;
+    }
+}
+
+.productsCard{
+    background-color: #F8F8F8;
+    display:flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    width: 250px;
+    min-height: 250px;
+    justify-content: space-between;
+
+    button{
+        color: rgb(216, 8, 8);
+        background-color: white;
+        width: 60px;
+        height: 20px;
+        align-self: flex-start;
+    }
+
+    img{
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    h3{
+        font-size: 18px;
+        margin-bottom: 8px;
+    }
+
+    p {
+        font-size: 14px;
+        color: #555;
+      }
+}
+
+
+.addCardForm {
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+
+    button{
+        min-height: 20px;
+    }
+
+    @media screen and (min-width: 48em) {
+        flex-direction: row;
+    }
+
+    @media screen and (max-width: 48em){
+        flex-direction: column;
+    }
+}
+
+.productsOrderBar{
+    align-self: flex-end;
+    display: flex;
+    flex-direction: column;
+}
+  
+.productsSortButtons {
+    display:flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+    p{
+        margin-right: 3px;
+    }
+
+    button{
+        margin-left: 5px;
+    }
+}
+
+.productsSearchInput {
+    align-self: flex-end;
+    margin-bottom: 10px;  
+}

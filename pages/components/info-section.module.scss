@@ -1,0 +1,64 @@
+.infoSection{
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    background: #ffffff;
+    width: 100%;
+}
+
+.infoSectionContainer{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    justify-content: space-between;
+
+    
+    @media screen and (min-width: 48em) {
+        flex-direction: row;
+    }
+
+    @media screen and (max-width: 48em){
+        flex-direction: column;
+    }
+
+}
+
+.infoSectionText{
+    display: block;
+    align-self: left;
+    text-align: left;
+    font-family: 'Titillium Web', sans-serif;
+
+
+    @media screen and (min-width: 48em) {
+        width: 40%;
+    }
+
+    @media screen and (max-width: 48em){
+        margin-left: 0px;
+    }
+
+    h1{
+        font-size: 1.8rem;
+        font-weight: 600;
+        color: #2975BF;
+        overflow: auto;
+        line-height: 2.5rem;
+        margin-bottom: 0.938rem;
+        padding: 1rem 1rem 1rem 0;
+    }
+
+    p{
+        font-size: 16px;
+        line-height: 2rem;
+        margin: 1.25rem 0;
+        overflow: hidden;
+    }
+}
+
+
+.infoSectionImage{
+    display: block;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    align-self: center;
+}

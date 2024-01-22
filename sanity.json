@@ -1,0 +1,19 @@
+{
+    "root": true,
+    "project": {
+      "name": "Tontine Challenge",
+      "id": "ikxdvz9o",
+      "dataset": "production"
+    },
+    "api": {
+      "projectId": "ikxdvz9o",
+      "dataset": "production"
+    },
+    "plugins": [
+      "@sanity/base",
+      "@sanity/components",
+      "@sanity/default-layout",
+      "@sanity/default-login",
+      "@sanity/desk-tool"
+    ]
+  }
